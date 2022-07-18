@@ -38,6 +38,7 @@ header{
     border-color: black;
     border-radius: 50px;
     background-color: aquamarine;
+    
 }
 a{
     text-decoration: none;
@@ -162,6 +163,17 @@ main{
 /* Galeria */
 
 .galeria{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formato__imagen{
+    max-height: 200px;
+    overflow: auto;
+    margin-bottom: 20px;
+
+}
+/* .galeria{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -170,7 +182,7 @@ main{
 
 .galeria__img img{
     width: 400px;
-}
+} */
 
 /* Fin Galeria */
 
@@ -183,10 +195,9 @@ footer {
     width: 100%;
 }
 
-
-
 /* Fin Footer */
 
+/* Responsive */
 /* Animacion */
 .zoomIn {
     -webkit-animation-name: zoomIn;
