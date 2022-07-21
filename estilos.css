@@ -18,35 +18,6 @@ header{
     padding: 20px;
 }
 
-.menu{
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    /*background-color: aquamarine;*/
-    border-radius: 80px;
-    padding: 10px;
-}
-
-.menu__item{
-    text-decoration: none;
-    font-size: 20px;
-    border: 2px solid #fff;
-    transition: all 1s;
-}
-
-.menu__item:hover{
-    border-color: black;
-    border-radius: 50px;
-    background-color: aquamarine;
-    
-}
-a{
-    text-decoration: none;
-}
-a:visited{
-    color: black;
-}
-
 /* Fin Header */
 
 body{
@@ -76,7 +47,6 @@ main{
 .titulo {
     margin: 15px;
 }
-
 .words{
     text-align: center;
     font-style: italic;
@@ -90,18 +60,14 @@ main{
     grid-template-rows: repeat(1, 1fr);
     align-items: center;
     gap: 2em;
-
 }
-
 .info__text {
     text-align: left;
     margin: 20px;
 }
-
 .info__title {
     margin: 10px;
 }
-
 .info__img{
     margin: auto;
 }
@@ -109,15 +75,8 @@ main{
 /* Index */
 
 /* Formulario */
-
 .formulario{
-    background-color: rgb(93, 93, 236);
-    padding: 30px;
-    text-align: center;
-    border-style: groove;
-    width: 400px;
-    margin: auto;
-    margin-bottom: 20px;
+    min-height: 100vh;
 }
 /* Fin Formulario */
 
@@ -128,13 +87,11 @@ main{
     width: 400px;
     font-weight: bold;
 }
-
 .donaciones__lista {
     text-align: center;
     font-size: 20px;
     
 }
-
 .fillers {
     padding: 4px;
     margin-bottom: 10px;
@@ -171,18 +128,7 @@ main{
     max-height: 200px;
     overflow: auto;
     margin-bottom: 20px;
-
 }
-/* .galeria{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.galeria__img img{
-    width: 400px;
-} */
 
 /* Fin Galeria */
 
@@ -197,7 +143,6 @@ footer {
 
 /* Fin Footer */
 
-/* Responsive */
 /* Animacion */
 .zoomIn {
     -webkit-animation-name: zoomIn;

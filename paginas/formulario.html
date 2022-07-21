@@ -18,59 +18,68 @@
             <img class="header__img" src="../imagenes/Logo Rincones.png" alt="logo">
         </picture>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Inicio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../paginas/acercade.html">Acerca de Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/galerias.html">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/donaciones.html">Donaciones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./paginas/formulario.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a>></li>
+                <li class="nav-item"><a class="nav-link" href="../paginas/acercade.html">Acerca de Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="../paginas/galerias.html">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="../paginas/donaciones.html">Donaciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="./paginas/formulario.html">Contacto</a></li>
+              </ul>
             </div>
-        </nav>
+          </div>
+      </nav>
     </header>
-    <main>
-        <h1>Contacto</h1>
-        <form class="formulario">
-            <fieldset class="formulario__contact">
-                <legend>Info Personal</legend>
-                <p>Nombre:</p>
-                <input class="fillers" type="text" placeholder="Ingresar Aqui">
-                <p>Apellido:</p>
-                <input class="fillers" type="text" placeholder="Ingresar Aqui">
-                <p>Telefono:</p>
-                <input class="fillers" type="text" placeholder="Solo numeros">
-                <p>Email:</p>
-                <input class="fillers" type="text" placeholder="@mail">
-                <br>
-                <label for="Titulo de Consulta:">Titulo de Consulta:</label>
-                <select class="fillers" name="Sobre tu Consulta">
-                    <option value="Donaciones">Donaciones</option>
-                    <option value="Visitar a Lugar">Visita a Lugar</option>
-                </select>
-                <p>Dejanos tu consulta:</p>
-                <input class="fillers" type="text" placeholder="Texto Aqui">
-                <p>No nos molesta ningun tipo de consultas o comentarios de como mejorar nuestra pagina.</p>
-                <p>Te responderemos a la brevedad.</p>
-                <p>Muchas Gracias!</p>
-                <input class="fillers" type="submit" value="Enviar">
-               </fieldset>
-        </form>
-   
-    </main>
+
+<main>
+  <h1>Contacto</h1>
+    <form class="row g-3 formulario">
+      <div class="col-6">
+        <label for="" class="form-label">Nombre:</label>
+        <input type="Nombre" class="form-control"placeholder="Ingresar Aqui">
+      </div>
+          
+      <div class="col-6">
+        <label for="" class="form-label">Apellido:</label>
+        <input type="Apellido" class="form-control"placeholder="Ingresar Aqui">
+      </div>
+
+      <div class="col-10">
+        <label for="" class="form-label">Email:</label>
+        <input type="Email" class="form-control" placeholder="@email">
+      </div>
+
+      <div class="col-6">
+        <label for="" class="form-label">Telefono:</label>
+        <input type="Apellido" class="form-control"placeholder="Solo numeros">
+      </div>
+
+      <div class="col-6">
+        <label class="form-label">Tipo de Consulta</label>
+        <select class="form-select" id="">
+          <option selected>Elegir</option>
+          <option value="1">Donaciones</option>
+          <option value="2">Visita a Sitio</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta:</label>
+        <textarea class="form-control" rows="3" placeholder="Texto aqui, no importa los caracteres =)"></textarea>
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">
+          Enviar
+        </button>
+      </div>
+    </form>
+        
+</main>
     <br>
     <footer>
         <div class="end">
