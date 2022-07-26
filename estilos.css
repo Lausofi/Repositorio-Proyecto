@@ -27,7 +27,7 @@ body{
     background-attachment: fixed;
 }
 
-body {
+body{
     position: relative;
     min-height: 100vh;
 }
@@ -81,7 +81,7 @@ main{
 /* Fin Formulario */
 
 /* Donaciones */
-.donations {
+/* .donations {
     text-align: center;
     margin: auto;
     width: 400px;
@@ -90,12 +90,7 @@ main{
 .donaciones__lista {
     text-align: center;
     font-size: 20px;
-    
-}
-.fillers {
-    padding: 4px;
-    margin-bottom: 10px;
-}
+} */
 
 /* Fin Donaciones */
 
@@ -174,4 +169,10 @@ footer {
     }
 /* Fin Animacion */
 
+/* Responsive */
 
+@media (min-width:320px) and (max-width:640px){
+   .titulo{
+    font-size: 1.4em;
+   }
+}
