@@ -25,7 +25,11 @@ footer {
   bottom: 0;
   width: 100%; }
 
+.acerca-de {
+  color: aliceblue; }
+
 h2 {
+  color: aliceblue;
   text-align: center;
   font-weight: bold; }
 

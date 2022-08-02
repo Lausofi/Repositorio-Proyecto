@@ -95,20 +95,23 @@ main{
 /* Fin Donaciones */
 
 /* Acerca de */
-.acerca {
+/* .acerca {
     text-align: center;
     background-color: grey;
     margin: 20px;
     padding: 10px;
-}
+} */
 
-.nosotros {
+/* .de{
+    color: aliceblue;
+} */
+/* .nosotros {
     border-style: groove;
     padding: 10px;
     margin: 20px;
     font-style: italic;
     font-weight: bold;
-}
+} */
 
 /* Fin de Acerca de */
 
