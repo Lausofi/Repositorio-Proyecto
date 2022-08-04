@@ -1,7 +1,11 @@
+@import './extras/variables';
+@import './extras/mixins';
 @import './extras/normalize';
 
 @import './generales/header';
 @import './generales/footer';
 
+@import './views/formulario';
 @import './views/acercade';
 @import './views/donaciones';
+@import './views/galeria';

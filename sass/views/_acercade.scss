@@ -1,4 +1,13 @@
-.acerca-de{
-    color: aliceblue;
-
+.acerca{
+    text-align: center;
+    margin: 20px;
+    &__de{
+        margin-top: 20px;
+        &__nosotros{
+            background-color: $primary-color;
+            margin: 10px;
+            padding: 20px;
+            @include italic-bold;
+        }
+    }
 }
