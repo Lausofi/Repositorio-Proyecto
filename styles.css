@@ -46,7 +46,11 @@ main {
   font-size: 20px; }
 
 h1 {
-  color: aliceblue; }
+  color: #73C6B6;
+  text-shadow: 0 0 8px black; }
+
+h2 {
+  color: black; }
 
 /* Index */
 .words {
@@ -64,10 +68,10 @@ h1 {
   gap: 2em; }
   .info__text {
     text-align: left;
-    margin: 20px; }
+    margin: 20px;
+    text-shadow: 0 0 8px black; }
     .info__text__title {
-      margin: 10px;
-      color: gray; }
+      margin: 10px; }
   .info__img {
     margin: auto; }
 
@@ -82,7 +86,8 @@ footer {
   text-align: center;
   background-color: gray;
   bottom: 0px;
-  width: 100%; }
+  width: 100%;
+  position: fixed; }
 
 .formulario {
   min-height: 100vh;

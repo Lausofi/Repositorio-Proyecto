@@ -50,7 +50,12 @@ main{
 }
 
 h1{
-    color: aliceblue;
+    color: $secondary-color;
+    text-shadow: 0 0 8px black;
+}
+
+h2{
+    color: $alternative;
 }
 
 /* Index */
@@ -70,9 +75,10 @@ h1{
     &__text{
         text-align: left;
         margin: 20px;
+        text-shadow: 0 0 8px black;
         &__title{
             margin: 10px;
-            color: $primary-color;
+            
         }
     }
     &__img{
@@ -80,3 +86,4 @@ h1{
     }
 }
 /* Fin de Index */
+
