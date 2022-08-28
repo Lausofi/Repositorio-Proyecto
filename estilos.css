@@ -1,7 +1,0 @@
-/* Responsive */
-
-@media (min-width:320px) and (max-width:640px){
-   .titulo{
-    font-size: 1.4em;
-   }
-}

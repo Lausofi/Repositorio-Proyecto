@@ -127,6 +127,5 @@ h2 {
   margin-bottom: 20px; }
 
 .formato__imagen {
-  max-height: 200px;
-  overflow: auto;
+  width: 20px;
   margin-bottom: 20px; }
